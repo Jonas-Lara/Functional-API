@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jonas/Functional-API/Functional-API.fsproj": {}
+  },
+  "projects": {
+    "/home/jonas/Functional-API/Functional-API.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jonas/Functional-API/Functional-API.fsproj",
+        "projectName": "Functional-API",
+        "projectPath": "/home/jonas/Functional-API/Functional-API.fsproj",
+        "packagesPath": "/home/jonas/.nuget/packages/",
+        "outputPath": "/home/jonas/Functional-API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jonas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
